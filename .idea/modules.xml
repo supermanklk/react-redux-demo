@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/react-redux-demo.iml" filepath="$PROJECT_DIR$/.idea/react-redux-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zhu_pro/.idea/zhu_pro.iml" filepath="$PROJECT_DIR$/../zhu_pro/.idea/zhu_pro.iml" />
     </modules>
   </component>
 </project>

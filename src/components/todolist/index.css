@@ -1,0 +1,11 @@
+.com-a {
+    width: 200px;
+    height: 200px;
+    background: #2b2b2b;
+    color: white;
+    margin: 10px auto 10px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
