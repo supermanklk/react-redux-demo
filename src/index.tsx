@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 
 //配置Router
-import { HashRouter as Router } from 'react-router-dom';
-import { createHashHistory } from 'history';
-import { renderRoutes } from 'react-router-config';
+// import { HashRouter as Router } from 'react-router-dom';
+// import { createHashHistory } from 'history';
+// import { renderRoutes } from 'react-router-config';
 
 //引入配置的routes
 // import Routes from './routes';
