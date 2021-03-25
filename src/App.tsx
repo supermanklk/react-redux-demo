@@ -6,10 +6,11 @@ import './App.css';
 // import LearnEffect from '../src/components/learnEffect/index';
 // import ClearSetInterval from '../src/components/clearSetInterval/index';
 // import UseEffectNot2Nest from '../src/components/useEffectNot2Nest/index';
-import UseEffectBaseUsage from '../src/components/useEffectBaseUsage/index';
-
-import UseRefCom from '../src/components/useRefCom/index';
-
+// import UseEffectBaseUsage from '../src/components/useEffectBaseUsage/index';
+// import UseRefCom from '../src/components/useRefCom/index';
+// import LearnContext from './components/learnContext/index';
+// import LearnContextPro from '../src/components/learnContextPro/index';
+// import LearnReducer from '../src/components/learnReducer/index';
 function App() {
   return (
     <div className="App">
@@ -31,9 +32,14 @@ function App() {
         {/*<UseEffectBaseUsage/>*/}
 
         {/*学习useRef*/}
-        <UseRefCom/>
+        {/*<UseRefCom/>*/}
 
+        {/*学习context*/}
+        {/*<LearnContext/>*/}
+        {/*<LearnContextPro/>*/}
 
+        {/*学习reducer*/}
+        {/*<LearnReducer/>*/}
 
     </div>
   );
