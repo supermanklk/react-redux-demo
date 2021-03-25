@@ -11,6 +11,8 @@ import './App.css';
 // import LearnContext from './components/learnContext/index';
 // import LearnContextPro from '../src/components/learnContextPro/index';
 // import LearnReducer from '../src/components/learnReducer/index';
+import CustomHook from '../src/components/customHook/index';
+
 function App() {
   return (
     <div className="App">
@@ -41,6 +43,8 @@ function App() {
         {/*学习reducer*/}
         {/*<LearnReducer/>*/}
 
+        {/*学习自定义hook*/}
+        <CustomHook/>
     </div>
   );
 }

@@ -4,20 +4,21 @@ import Header from './header/index';
 import Footer from './footer/index';
 import Body from './body/index';
 import Theme from './libs/theme';
+
 export default function (props: any) {
     // 这个content上下文其实平常用的不多，用的比较多的是ui组件库。
     // 比如自己写一个ui组件库的时候就会经常用到。
-    const [color, setColor] = useState('dark');
+    const [color, setColor] = useState('yellow');
 
-    useEffect(() => {
-        let timer = setTimeout(() => {
-            setColor('green');
-        }, 2000);
-
-        return () => {
-            clearTimeout(timer);
-        }
-    }, [])
+    // useEffect(() => {
+    //     let timer = setTimeout(() => {
+    //         setColor('green');
+    //     }, 2000);
+    //
+    //     return () => {
+    //         clearTimeout(timer);
+    //     }
+    // }, [])
 
     return (
         // 这样写太麻烦了
@@ -52,13 +53,14 @@ export default function (props: any) {
         // </div>
 
         // 也可以是变量
-    <div>
-        <Theme.Provider value = {color}>
-            <Header />
-            <Body />
-            <Footer />
-        </Theme.Provider>
-    </div>
+        <div>
+            <Theme.Provider value = {color}>
+                <Header />
+                <Body />
+                <Footer />
+            </Theme.Provider>
+
+        </div>
 
 
 

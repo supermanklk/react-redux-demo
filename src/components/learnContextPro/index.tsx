@@ -8,23 +8,23 @@ export default function (props: any) {
 
     const [color, setColor] = useState('dark');
 
-    useEffect(() => {
-        let timer = setTimeout(() => {
-            setColor('green');
-        }, 2000);
-
-        return () => {
-            clearTimeout(timer);
-        }
-    }, [])
+    // useEffect(() => {
+    //     let timer = setTimeout(() => {
+    //         setColor('green');
+    //     }, 2000);
+    //
+    //     return () => {
+    //         clearTimeout(timer);
+    //     }
+    // }, [])
 
     return (
         <div>
-           <Container theme = 'dark' >
+           <Container theme = 'yellow' >
                <Header/>
                {/*Footer这块有一些精妙之处*/}
+               {/*<Footer />*/}
                <Footer />
-               {/*<Footer theme = 'yellow'/>*/}
                <Body/>
            </Container>
         </div>
