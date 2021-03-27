@@ -3,7 +3,8 @@ import React, {useEffect, useState} from "react";
 
 // step1
 // 验证了所有的hook只能在第一级调用或者在自定义的就hook内调用
-// React Hook "useState" is called in function "show" that is neither a React function component
+// React Hook "useState" is called in function "show" that is neither
+// a React function component
 // function show() {
 //     const [a, setA] = useState(0);
 //     return a;
