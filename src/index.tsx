@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter} from "react-router-dom";
 
 //配置Router
 // import { HashRouter as Router } from 'react-router-dom';
@@ -26,12 +26,13 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-    <div>
-        <Provider store = {store}>
-            <App />
-        </Provider>
-    </div>
-
+    <BrowserRouter>
+        <div>
+            <Provider store = {store}>
+                <App />
+            </Provider>
+        </div>
+    </BrowserRouter>
     ,
   document.getElementById('root')
 );
