@@ -16,6 +16,7 @@ import './App.css';
 import PerformanceOptimizationClass from './components/performanceOptimizationClass/index';
 // import PerformanceOptimizationHooks from './components/performanceOptimizationHooks/index';
 import LearnHookRouter from '../src/components/learnHookRouter';
+import PerformanceOptimizationHooks from "./components/performanceOptimizationHooks";
 function App() {
   return (
     <div className="App">
@@ -53,7 +54,10 @@ function App() {
         {/*<LearnHookRouter/>*/}
 
         {/* 性能优化-class 不重复渲染组件*/}
-        <PerformanceOptimizationClass/>
+        {/*<PerformanceOptimizationClass/>*/}
+
+        {/* 性能优化-hooks 不重复渲染组件*/}
+        <PerformanceOptimizationHooks/>
 
     </div>
   );
