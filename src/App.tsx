@@ -12,6 +12,9 @@ import './App.css';
 // import LearnContextPro from '../src/components/learnContextPro/index';
 // import LearnReducer from '../src/components/learnReducer/index';
 // import CustomHook from '../src/components/customHook/index';
+
+import PerformanceOptimizationClass from './components/performanceOptimizationClass/index';
+// import PerformanceOptimizationHooks from './components/performanceOptimizationHooks/index';
 import LearnHookRouter from '../src/components/learnHookRouter';
 function App() {
   return (
@@ -47,8 +50,10 @@ function App() {
         {/*<CustomHook/>*/}
 
         {/*学习hook的router*/}
-        <LearnHookRouter/>
+        {/*<LearnHookRouter/>*/}
 
+        {/* 性能优化-class 不重复渲染组件*/}
+        <PerformanceOptimizationClass/>
 
     </div>
   );
