@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../itempcr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../puppeteer-fc-starter-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../zhu_pro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../zhushang_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../zhushang_crm" vcs="Git" />
   </component>
 </project>

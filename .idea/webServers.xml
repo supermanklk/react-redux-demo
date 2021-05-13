@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28fcdd93-0e62-4de1-b042-0c450f7130db" name="预发">
+        <fileTransfer rootFolder="/www/wwwroot/prebin.zhushang.net/zhu_pro_zb" accessType="SFTP" host="47.92.1.128" port="22" sshConfigId="2f366483-691f-4458-a63f-289928c4fa1e" sshConfig="root@47.92.1.128:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

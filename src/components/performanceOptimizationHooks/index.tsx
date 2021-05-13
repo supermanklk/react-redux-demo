@@ -1,4 +1,4 @@
-import React, {useState, memo} from 'react';
+import React, {useState, memo, useEffect} from 'react';
 import {Button} from "antd";
 // rsc
 
@@ -14,10 +14,11 @@ import {Button} from "antd";
 // pure  = [piu er]
 
 // 用memo把hooks包裹即可
+// React.memo 仅检查 props 变更
 const DemoA = memo((props: any) => {
     console.log('渲染a');
     return (
-        <div>demoA</div>
+        <div>demoA {props.data}</div>
     )
 })
 
@@ -31,11 +32,12 @@ const DemoB = memo((props: any) => {
 
 const PerformanceOptimizationHooks = (props: any) => {
     const [a, setA] = useState(0);
+    const [obj, setObj] = useState([]);
     return (
         <div>
             PerformanceOptimizationHooks {a}
             <Button onClick={() => {setA(pre => pre + 1)}}>点击button</Button>
-            <DemoA/>
+            <DemoA data = {obj} />
             <DemoB/>
         </div>
     );

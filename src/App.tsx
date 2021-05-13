@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 // import TodoList from "./components/todolist";
 // import ComRight from "./components/comRight";
 // import LearnEffect from '../src/components/learnEffect/index';
@@ -13,10 +12,28 @@ import './App.css';
 // import LearnReducer from '../src/components/learnReducer/index';
 // import CustomHook from '../src/components/customHook/index';
 
-import PerformanceOptimizationClass from './components/performanceOptimizationClass/index';
+// import PerformanceOptimizationClass from './components/performanceOptimizationClass/index';
 // import PerformanceOptimizationHooks from './components/performanceOptimizationHooks/index';
-import LearnHookRouter from '../src/components/learnHookRouter';
-import PerformanceOptimizationHooks from "./components/performanceOptimizationHooks";
+// import LearnHookRouter from '../src/components/learnHookRouter';
+
+
+//
+// import SetIntervalQuestion from '../src/components/setIntervalQuestion/index';
+// import PerformanceOptimizationHooks from "./components/performanceOptimizationHooks/index";
+//
+// import LearnUseCallback from './components/learnUseCallback/index';
+// import LearnUseMemo  from './components/learnUseMemo/index';
+//
+// import SetStateAndUseStateReceiveFc from './components/setStateAndUseStateReceiveFc/index';
+//
+// import TheWrittenTest from './components/theWrittenTest/index';
+
+
+import ShengBeiLayout from './cssComponents/shengBeiLayout/index';
+import ShuangFeiYiLayout from './cssComponents/shuangFeiYiLayout/index';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -57,7 +74,30 @@ function App() {
         {/*<PerformanceOptimizationClass/>*/}
 
         {/* 性能优化-hooks 不重复渲染组件*/}
-        <PerformanceOptimizationHooks/>
+        {/*<PerformanceOptimizationHooks/>*/}
+
+        {/*setState 与 useState 能够第一个参数接收函数*/}
+        {/*<SetStateAndUseStateReceiveFc/>*/}
+
+        {/*性能优化 learnUseMemo*/}
+        {/*<LearnUseMemo/>*/}
+        {/*性能优化 learnUseCallback*/}
+        {/*<LearnUseCallback/>*/}
+
+
+        {/*test 练习*/}
+        {/*<TheWrittenTest/>*/}
+
+        {/* 定时器的问题*/}
+        {/*<SetIntervalQuestion/>*/}
+
+
+
+
+        {/*css 布局*/}
+        {/*<ShengBeiLayout/>*/}
+        <ShuangFeiYiLayout/>
+
 
     </div>
   );

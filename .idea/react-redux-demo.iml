@@ -7,5 +7,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="zhu_pro" />
+    <orderEntry type="module" module-name="zhushang_b" />
+    <orderEntry type="module" module-name="zhushang_crm" />
+    <orderEntry type="module" module-name="puppeteer-fc-starter-kit" />
+    <orderEntry type="module" module-name="itempcr" />
+    <orderEntry type="module" module-name="react-source-code" />
   </component>
 </module>

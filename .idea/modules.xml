@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../itempcr/.idea/itempcr.iml" filepath="$PROJECT_DIR$/../itempcr/.idea/itempcr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../puppeteer-fc-starter-kit/.idea/puppeteer-fc-starter-kit.iml" filepath="$PROJECT_DIR$/../puppeteer-fc-starter-kit/.idea/puppeteer-fc-starter-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/react-redux-demo.iml" filepath="$PROJECT_DIR$/.idea/react-redux-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-source-code/.idea/react-source-code.iml" filepath="$PROJECT_DIR$/../react-source-code/.idea/react-source-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/../zhu_pro/.idea/zhu_pro.iml" filepath="$PROJECT_DIR$/../zhu_pro/.idea/zhu_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zhushang_b/.idea/zhushang_b.iml" filepath="$PROJECT_DIR$/../zhushang_b/.idea/zhushang_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zhushang_crm/.idea/zhushang_crm.iml" filepath="$PROJECT_DIR$/../zhushang_crm/.idea/zhushang_crm.iml" />
     </modules>
   </component>
 </project>
